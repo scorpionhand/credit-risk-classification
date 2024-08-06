@@ -5,7 +5,6 @@ Module 20 Challenge
   - /Credit_Risk/Crypto_Clustering.ipynb
   - /Credit_Risk/lending_data.csv
 
----
 ## Overview of the Analysis
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
