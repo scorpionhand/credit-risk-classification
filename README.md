@@ -1,6 +1,11 @@
 # credit-risk-classification
 Module 20 Challenge
 
+## Analysis Files:
+  - /Credit_Risk/Crypto_Clustering.ipynb
+  - /Credit_Risk/lending_data.csv
+
+---
 ## Overview of the Analysis
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
@@ -29,14 +34,14 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ## Classification Report
 
-                precision    recall  f1-score   support
-
-  healthy loan       1.00      0.99      1.00     18765
-high-risk loan       0.85      0.91      0.88       619
-
-      accuracy                           0.99     19384
-     macro avg       0.92      0.95      0.94     19384
-  weighted avg       0.99      0.99      0.99     19384
+                    precision    recall  f1-score   support
+    
+      healthy loan       1.00      0.99      1.00     18765
+    high-risk loan       0.85      0.91      0.88       619
+    
+          accuracy                           0.99     19384
+         macro avg       0.92      0.95      0.94     19384
+      weighted avg       0.99      0.99      0.99     19384
 
 
 ## Analysis Summary
@@ -47,5 +52,5 @@ high-risk loan       0.85      0.91      0.88       619
     * In the High Risk loan, the precision, recall and f1-score was slightly low. This is most likely due to a class imbalance between heathy and high risk loans. ( support ratio of 18765 / 619 ).
     * The imbalance needs to be addressed to improve the high risk accuracy.
 
-## This model is not recomeneded for use. It will require more data from high risk loans to be able to predict accurately
+## This model is not recomeneded for use. It will require more data from high risk loans to balance the classes.
 
